@@ -49,7 +49,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "FULL-STACK SOFTWARE ENGINEER WITH END-TO-END PRODUCT OWNERSHIP EXPERIENCE",
+  subTitle:
+    "FULL-STACK SOFTWARE ENGINEER WITH END-TO-END PRODUCT OWNERSHIP EXPERIENCE",
   skills: [
     emoji(
       "⚡ Own features across the full software lifecycle—from requirements and system design to implementation, testing, deployment, and long-term maintenance"
@@ -190,7 +191,7 @@ const skillsSection = {
     }
   ],
   display: true // Set false to hide this section
-}
+};
 
 // Education Section
 
@@ -201,7 +202,7 @@ const educationInfo = {
       schoolName: "Simon Fraser University",
       logo: require("./assets/images/sfuLogo.png"),
       subHeader: "Master of Science in Big Data",
-      duration: "September 2024 - April 2026",
+      duration: "September 2024 - April 2026"
     },
     {
       schoolName: "Simon Fraser University",
@@ -257,8 +258,7 @@ const workExperiences = {
       company: "Cyberium Group",
       companylogo: require("./assets/images/cyberiumLogo.png"),
       date: "April 2025 – Present",
-      desc:
-        "Product-focused software developer and technical lead contributing across multiple production systems, spanning full-stack development, AI/ML research, and cloud infrastructure.",
+      desc: "Product-focused software developer and technical lead contributing across multiple production systems, spanning full-stack development, AI/ML research, and cloud infrastructure.",
       descBullets: [
         "Served as product team tech lead across three concurrent product streams, collaborating closely with engineers, designers, and stakeholders",
         "Scaled a blockchain-based Chrome extension from ~1,000 to over 90,000 daily active users through performance optimization and feature development",
@@ -272,8 +272,7 @@ const workExperiences = {
       company: "Sikh Research Institute",
       companylogo: require("./assets/images/sikhriLogo.png"),
       date: "September 2024 – April 2025",
-      desc:
-        "Volunteer software developer contributing to data accessibility and archival infrastructure for large-scale cultural research initiatives.",
+      desc: "Volunteer software developer contributing to data accessibility and archival infrastructure for large-scale cultural research initiatives.",
       descBullets: [
         "Configured and deployed an Omeka CMS to host and provide public access to over 10,000 archival records",
         "Designed and implemented an ETL-style data pipeline capable of processing up to 500 records per batch",
@@ -286,8 +285,7 @@ const workExperiences = {
       company: "Gatekeeper Systems",
       companylogo: require("./assets/images/gatekeeperLogo.png"),
       date: "May 2021 – December 2021",
-      desc:
-        "Quality assurance and firmware testing specialist contributing to the reliability of embedded and networked systems.",
+      desc: "Quality assurance and firmware testing specialist contributing to the reliability of embedded and networked systems.",
       descBullets: [
         "Executed over 100 firmware test cases, identifying more than 60 defects prior to production release",
         "Performed network performance testing on web services, uncovering multiple critical operational issues",
