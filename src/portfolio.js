@@ -308,33 +308,32 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME INTERESTING PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/adrevaLogo.png"), // Placeholder for the actual logo path
+      projectName: "Adreva",
+      projectDesc: "A blockchain-based advertisement rewards platform hosted in a Chrome extension. I optimized and scaled the system to over 90,000 daily active users using Redis caching and built core backend services with Node.js and TypeScript.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Details",
+          url: "https://adrevanetwork.com"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/seca2Logo.png"), // Placeholder for the actual logo path
+      projectName: "SECA Gen 2",
+      projectDesc: "An AI-augmented Unity training simulator featuring RAG workflows, BI dashboards, and LLM-powered content generation. I led the development of the simulator and built FastAPI services for agent orchestration to enhance cybersecurity awareness training.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Details",
+          url: "https://www.cyberiumgroup.com" // Based on the company Cyberium Ventures [cite: 16]
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Achievement Section
